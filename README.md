@@ -28,7 +28,7 @@ mprpc 是基于muduo 、protobuf和zookeeper 实现的。
 
 如何使用rpc方法 可以参照```/example/caller```目录下```callfriendservice.cc```和```calluserservicer.cc```
 
-以及其想对应的proto文件
+以及其相对应的proto文件
 
 结果展示
 
