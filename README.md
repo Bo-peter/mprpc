@@ -10,7 +10,10 @@ mprpc 是基于muduo 、protobuf和zookeeper 实现的。
 ./autobuild.sh
 ```
 
-就可以在bin目录下生成可执行文件 provider 和 consumer 
+在lib目录下生成了 libmprpc.a 的静态库,include 下的所有头文件
+
+并且在bin目录下生成示例可执行文件 provider 和 consumer 
+
 
 需要配置一下 bin目录下的 test.conf,修改成自己zookeeper的端口和ip，默认是2181
 
